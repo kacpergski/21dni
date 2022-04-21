@@ -13,6 +13,7 @@ namespace ChallenegeApp
         string name = "Adam";
         Employee employee = new Employee(name);
         employee.AddGrade(22.2);
+        employee.GetStatistics();
 
         foreach( var number in numbers)
         {
